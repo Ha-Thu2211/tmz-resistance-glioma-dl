@@ -1,0 +1,31 @@
+TMZ-Resistance-Prediction-Glioma/
+│
+├── README.md
+├── requirements.txt
+│
+├── data/
+│   ├── CGGA/
+│   └── TCGA/
+│
+├── notebooks/
+│   ├── 01_preprocessing.ipynb
+│   ├── 02_label_generation.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_external_validation.ipynb
+│
+├── src/
+│   ├── preprocessing.py
+│   ├── feature_selection.py
+│   ├── label_generation.py
+│   ├── model.py
+│   └── validation.py
+│
+├── figures/
+│   ├── workflow.png
+│   ├── roc_curve.png
+│   ├── training_curve.png
+│   └── km_curve.png
+│
+└── results/
+    ├── TCGA_predictions.csv
+    └── performance_metrics.csv
